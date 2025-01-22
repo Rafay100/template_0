@@ -46,7 +46,7 @@ const Checkout = () => {
               id="country"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
             >
-              <option>Sri Lanka</option>
+              <option>Pakistan</option>
               {/* Add more options here */}
             </select>
           </div>
@@ -80,7 +80,7 @@ const Checkout = () => {
               id="province"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
             >
-              <option>Western Province</option>
+              <option>karachi</option>
               {/* Add more options here */}
             </select>
           </div>

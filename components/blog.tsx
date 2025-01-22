@@ -18,21 +18,21 @@ const BlogGrid = () => {
           {
             id: 1,
             title: "Going all-in with millennial design",
-            image: "/blog1.png", // Replace with actual image paths
+            image: "/blog1.png", 
             readTime: "5 min",
             date: "12th Oct 2022",
           },
           {
             id: 2,
             title: "Going all-in with millennial design",
-            image: "/blog2.png", // Replace with actual image paths
+            image: "/blog2.png", 
             readTime: "5 min",
             date: "12th Oct 2022",
           },
           {
             id: 3,
             title: "Going all-in with millennial design",
-            image: "/blog3.png", // Replace with actual image paths
+            image: "/blog3.png", 
             readTime: "5 min",
             date: "12th Oct 2022",
           },

@@ -20,7 +20,7 @@ const ProductGridList = () => {
             id: 1,
             name: "Trenton modular sofa_3",
             price: "Rs. 25,000.00",
-            image: "/sofa_3.png", // Replace with actual image paths
+            image: "/sofa_3.png", 
           },
           {
             id: 2,

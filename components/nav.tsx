@@ -11,18 +11,23 @@ const Navbar = () => {
 
         {/* Center Section - Links */}
         <ul className="hidden md:flex space-x-8 text-black font-medium">
-          <li className="hover:text-gray-600 cursor-pointer"><Link href="/">Home</Link></li>
-          <li className="hover:text-gray-600 cursor-pointer"><Link href="/shop">Shop</Link></li>
-          <li className="hover:text-gray-600 cursor-pointer">About</li>
-          <li className="hover:text-gray-600 cursor-pointer">Contact</li>
+          <li className="hover:text-gray-600 cursor-pointer"><Link href="./home">Home</Link></li>
+          <li className="hover:text-gray-600 cursor-pointer"><Link href="./shop">Shop</Link></li>
+          <li className="hover:text-gray-600 cursor-pointer"><Link href="./About">About</Link></li>
+          <li className="hover:text-gray-600 cursor-pointer"><Link href="./contact">Contact</Link></li>
         </ul>
 
         {/* Right Section - Icons */}
         <div className="flex space-x-6 text-black">
-          <FaUser className="text-lg cursor-pointer hover:text-gray-600" />
-          <FaSearch className="text-lg cursor-pointer hover:text-gray-600" />
-          <FaHeart className="text-lg cursor-pointer hover:text-gray-600" />
-          <Link href="/cart">
+        <Link href="./home">
+          <FaUser className="text-lg cursor-pointer hover:text-gray-600" /></Link>
+          <Link href="./shop">
+          <FaSearch className="text-lg cursor-pointer hover:text-gray-600" /></Link>
+          <Link href="./about">
+          <FaHeart className="text-lg cursor-pointer hover:text-gray-600" /></Link>
+          <Link href="./contact">
+          <FaHeart className="text-lg cursor-pointer hover:text-gray-600" /></Link>
+          <Link href="./cart">
           <FaShoppingCart className="text-lg cursor-pointer hover:text-gray-600" /></Link>
         </div>
       </div>
