@@ -11,7 +11,7 @@ const RocketSingleSeater = () => {
             Rocket single <br /> seater
           </h1>
           <a
-            href="#"
+            href="/"
             className="inline-block mt-4 text-lg text-[#000000]  decoration-2 hover:text-gray-600"
           >
             Shop Now

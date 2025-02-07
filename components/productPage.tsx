@@ -8,7 +8,7 @@ const ProductPage = () => {
       <nav className="text-sm text-gray-500 mb-4">
         <ol className="list-reset flex space-x-2">
           <li><Link href="/" className="hover:text-gray-800">Home</Link></li>
-          <li>/</li>
+          
           <li><Link href="/shop" className="hover:text-gray-800">Shop</Link></li>
           <li>/</li>
           <li className="text-gray-800">Asgaard Sofa</li>
